@@ -23,3 +23,11 @@ $ python3 -m venv first_rag_venv
 $ source first_rag_venv/bin/activate
 ```
 
+### Setup the environment variables
+
+```bash
+$ cp .env.example .env
+```
+
+Set your environment variables in the `.env` file. Like `OPENAI_API_KEY` value.
+
